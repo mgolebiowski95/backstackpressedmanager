@@ -7,7 +7,7 @@ https://developer.android.com/guide/navigation/navigation-custom-back
 
 ## Installation
 
-Backstackpressedmanager is installed by putting aar file into libs folder:
+Library is installed by putting aar file into libs folder:
 
 ```
 module/libs (ex. app/libs)
