@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red_500"
+        tools:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/text_view"
+            style="@style/Default_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Fragment A" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            fab:menu_colorNormal="@color/black">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/menu_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                fab:fab_label="Menu item 1"
+                fab:menu_colorNormal="@color/black" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </FrameLayout>
+
+</layout>
